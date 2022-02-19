@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/helper-member-expression-to-functions": "^7.16.7",
+    "@babel/helper-optimise-call-expression": "^7.16.7",
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -35,5 +37,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/helper-explode-assignable-expression": "^7.16.7",
+    "@babel/helper-skip-transparent-expression-wrappers": "^7.16.0",
+    "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression": "^7.16.7",
+    "@babel/plugin-transform-member-expression-literals": "^7.16.7"
   }
 }
